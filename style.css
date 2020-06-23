@@ -1,3 +1,8 @@
+body {
+    padding: 15px;
+    font-family: 'Mallanna', sans-serif;
+}
+
 .main-nav {
     display: flex;
     justify-content:space-between 
@@ -60,7 +65,22 @@
     background-position: center;
 }
 
-.product-price, .product-description {
+.product-price, .product-description, button {
     position: relative;
-    left: 20px
+    left: 20px;
+    top: 10px
+}
+button {
+    border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgb(75, 68, 68);
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  font-size: 18px;
+}
+button:hover {
+    opacity: .5;
 }
